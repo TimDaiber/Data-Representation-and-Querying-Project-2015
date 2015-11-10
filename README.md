@@ -12,12 +12,18 @@ This project provides the design and documentation for the dataset "Galway City 
 
 Heading | Description  
 ---------|-----------
-"State" | The State the crime has occured in. 
-"Murder" | The Type of crime (Statistic arrests per 100.000).
-"Assault" | Crime that occured Assault (Statistic arrests per 100.000).
-"Urban Population" | The amount of urban population that persides in the state.
-"Rape" | Crime that occured Rape (Statistic arrests per 100.000).
-
+"X" | The State the crime has occured in. 
+"Y" | The Type of crime (Statistic arrests per 100.000).
+"ObjectID" | Crime that occured Assault (Statistic arrests per 100.000).
+"Name" | The amount of urban population that persides in the state.
+"Type" | Crime that occured Rape (Statistic arrests per 100.000).
+"NO_SPACES" | Crime that occured Assault (Statistic arrests per 100.000).
+"Lat" | The amount of urban population that persides in the state.
+"Long" | Crime that occured Rape (Statistic arrests per 100.000).
+"EastITM" | Crime that occured Assault (Statistic arrests per 100.000).
+"NorhtITM" | The amount of urban population that persides in the state.
+"EastIG" | Crime that occured Rape (Statistic arrests per 100.000).
+"NorthIG" | Crime that occured Assault (Statistic arrests per 100.000).
 
 
 [Apps4gaps](http://apps4gaps.ie/) have asked you design a simple API to any of their datasets.
