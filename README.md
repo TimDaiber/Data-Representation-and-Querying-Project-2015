@@ -26,9 +26,10 @@ Heading | Description
 "NorthIG" | Crime that occured Assault (Statistic arrests per 100.000).
 
 
-
-{
-     "X":"-9.053499750875776"
+ ```json
+ [
+    {
+        "X":"-9.053499750875776"
     ,"Y":"53.273082469830108"
     ,"OBJECTID":"1"
     ,"NAME":"Market St"
@@ -40,7 +41,10 @@ Heading | Description
     ,"NorthITM":"725294.803"
     ,"EastIG":"129726.012"
     ,"FIELNorthIGD12":"225265.639"
-  },
+     }
+  ]
+ ```
+
 
 
 [Apps4gaps](http://apps4gaps.ie/) have asked you design a simple API to any of their datasets.
