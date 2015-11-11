@@ -8,26 +8,25 @@
 
 This project provides the design and documentation for the dataset "Galway City Car Parking Locations" which is available at https://data.gov.ie/dataset/galway-city-car-parking-locations
 
-### Tim Daiber
-
 ## Dataset
 The dataset "Galway City Car Parking Locations" privides the user with usefull information about the location of parking places in Gawlay. The location is represented in lonatude and latitude also the amount of parking spaces can be gathered from the dataset.
-The CSV file 
+The CSV file contains 14 columns and 29 rows.
+Dataset Column breakdown.
  
-Heading | Description  
----------|-----------
-"X" |  
-"Y" | 
-"ObjectID" | 
-"Name" | 
-"Type" | 
-"NO_SPACES" | 
-"Lat" | 
-"Long" | 
-"EastITM" | 
-"NorhtITM" | 
-"EastIG" | 
-"NorthIG" | 
+ 
+|Heading | Description  |
+|---------|:-----------|
+|"ObjectID" | "Revers to the ID of the individual parking space" |
+|"Number" |  Number referes the area ID|
+|"Name" |  Name of the Parking Space|
+|"Type" | Declares the restiriction|
+|"NO_SPACES" | The max amount of cars the carpark can hold|
+|"Lat" | Referes to latitude (Geographic Location Coordinates from north to south position)|
+|"Long" | Referes to longitude (Geographic Location Coordinates from east-west position)|
+|"EastITM" | East-west ITM (Irish Transverse Mercator) is the geographic coordinate system for Ireland|
+|"NorhtITM" | North ITM (Irish Transverse Mercator) is the geographic coordinate system for Ireland|
+|"EastIG" | Easting are geographic Cartesian coordinates for a point|
+|"NorthIG" | Northing are geographic Cartesian coordinates for a point|
 
 
  ```json
