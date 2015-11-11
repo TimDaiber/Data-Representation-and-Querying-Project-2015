@@ -1,7 +1,8 @@
 # Data-Representation-and-Querying-Project-2015
 
-car parking
-https://data.gov.ie/dataset/galway-city-car-parking-locations
+# Galway City Car Parking Locations
+
+### Tim Daiber
 
 ## Introduction
 
@@ -9,7 +10,10 @@ This project provides the design and documentation for the dataset "Galway City 
 
 ### Tim Daiber
 
-
+## Dataset
+The dataset "Galway City Car Parking Locations" privides the user with usefull information about the location of parking places in Gawlay. The location is represented in lonatude and latitude also the amount of parking spaces can be gathered from the dataset.
+The CSV file 
+ 
 Heading | Description  
 ---------|-----------
 "X" |  
