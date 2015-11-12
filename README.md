@@ -8,6 +8,8 @@
 
 This project provides the design and documentation for the dataset "Galway City Car Parking Locations" which is available at https://data.gov.ie/dataset/galway-city-car-parking-locations
 
+
+
 ## Dataset
 The dataset "Galway City Car Parking Locations" privides the user with usefull information about the location of parking places in Gawlay. The location is represented in lonatude and latitude also the amount of parking spaces can be gathered from the dataset.
 The CSV file contains 14 columns and 29 rows.
@@ -173,16 +175,39 @@ JSON response:
 ...
 </ROWSET>
 ```
-##### Other URL examples
+
+###URL / Web address makeup
+
 http://galwayparking.com/parking
 
-###URL / Web address
-URL has to be unique
 > *HTTP:HyperText Transfer Protocol
+
 > *www.galwayparking.com: Domain name
+
 > *.com: extension (i.e.: .ie ireland)
+
 > */parking: PATH to specific page within a site
 
 
+##Post
+
+If Galway would ever get more carparks what is very likely in a growing city the post URL could look like this:
+http://galwayparking.com/parking/
 
 
+#### Terminology
+API - Application Programming Interface
+REST API - REpresentational state Transfer
+JSON - JavaScript Object Notation
+
+Graph API:
+Example: graph.galwayparking.com/parking/no_spaces
+
+Maps API:
+Example: map.galwayparking.com/parking
+
+#### Resources
+
+https://www.youtube.com/watch?v=7YcW25PHnAA
+
+https://www.youtube.com/watch?v=576WwU7xlWU
