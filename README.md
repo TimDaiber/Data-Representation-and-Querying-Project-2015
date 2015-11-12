@@ -16,8 +16,9 @@ Dataset Column breakdown.
  
 |Heading | Description  |
 |---------|:-----------|
+|"X" | "Geographic Coverage on the x axis" |
+|"Y" | "Geographic Coverage on the y axis" |
 |"ObjectID" | "Revers to the ID of the individual parking space" |
-|"Number" |  Number referes the area ID|
 |"Name" |  Name of the Parking Space|
 |"Type" | Declares the restiriction|
 |"NO_SPACES" | The max amount of cars the carpark can hold|
@@ -39,28 +40,46 @@ Dataset Column breakdown.
 
 
 
-
+## JSON Example
 
  ```json
  [
     {
-        "X":"-9.053499750875776"
-    ,"Y":"53.273082469830108"
-    ,"OBJECTID":"1"
-    ,"NAME":"Market St"
-    ,"TYPE":"Pay/Surface Carpark"
-    ,"NO_SPACES":"88"
-    ,"Lat":"53.273"
-    ,"Long":"-9.054"
-    ,"EastITM":"529691.955"
-    ,"NorthITM":"725294.803"
-    ,"EastIG":"129726.012"
-    ,"FIELNorthIGD12":"225265.639"
-     }
+    "X":-9.053499750875776,
+    "Y":53.27308246983011,
+    "OBJECTID":1,
+    "NAME":"Market St",
+    "TYPE":"Pay/Surface Carpark",
+    "NO_SPACES":88,
+    "Lat":53.273,
+    "Long":-9.054,
+    "EastITM":529691.955,
+    "NorthITM":725294.803,
+    "EastIG":129726.012,
+    "NorthIG":225265.639
+  }
   ]
  ```
 
-
+##XML example
+```xml
+<ROWSET>
+<ROW>
+<X>-9.053499750875776</X>
+<Y>53.273082469830108</Y>
+<OBJECTID>1</OBJECTID>
+<NAME>Market St</NAME>
+<TYPE>Pay/Surface Carpark</TYPE>
+<NO_SPACES>88</NO_SPACES>
+<Lat>53.273</Lat>
+<Long>-9.054</Long>
+<EastITM>529691.955</EastITM>
+<NorthITM>725294.803</NorthITM>
+<EastIG>129726.012</EastIG>
+<NorthIG>225265.639</NorthIG>
+</ROW>
+</ROWSET>
+```
 
 [Apps4gaps](http://apps4gaps.ie/) have asked you design a simple API to any of their datasets.
 
