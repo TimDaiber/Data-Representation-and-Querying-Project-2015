@@ -173,21 +173,16 @@ JSON response:
 ...
 </ROWSET>
 ```
-A
+##### Other URL examples
+http://galwayparking.com/parking
 
-[Apps4gaps](http://apps4gaps.ie/) have asked you design a simple API to any of their datasets.
+###URL / Web address
+URL has to be unique
+> *HTTP:HyperText Transfer Protocol
+> *www.galwayparking.com: Domain name
+> *.com: extension (i.e.: .ie ireland)
+> */parking: PATH to specific page within a site
 
-
-> From Joshua Bloch's "How to Design a Good API and Why it Matters"
-
-> *Characteristics of a Good API*
-> - *Easy to learn*
-> - *Easy to use, even without documentation*
-> - *Hard to misuse*
-> - *Easy to read and maintain code that uses it*
-> - *Sufficiently powerful to satisfy requirements*
-> - *Easy to extend*
-> - *Appropriate to audience*
 
 
 
