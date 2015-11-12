@@ -15,29 +15,34 @@ The CSV file contains 14 columns and 29 rows.
 Dataset Column breakdown.
  
 |Heading | Description  |
-|---------|:-----------|
-|"X" | "Geographic Coverage on the x axis" |
-|"Y" | "Geographic Coverage on the y axis" |
-|"ObjectID" | "Revers to the ID of the individual parking space" |
-|"Name" |  Name of the Parking Space|
-|"Type" | Declares the restiriction|
-|"NO_SPACES" | The max amount of cars the carpark can hold|
-|"Lat" | Referes to latitude (Geographic Location Coordinates from north to south position)|
-|"Long" | Referes to longitude (Geographic Location Coordinates from east-west position)|
-|"EastITM" | East-west ITM (Irish Transverse Mercator) is the geographic coordinate system for Ireland|
-|"NorhtITM" | North ITM (Irish Transverse Mercator) is the geographic coordinate system for Ireland|
-|"EastIG" | Easting are geographic Cartesian coordinates for a point|
-|"NorthIG" | Northing are geographic Cartesian coordinates for a point|
+|---------|-----------|
+| X | Geographic Coverage on the x axis |
+| Y | Geographic Coverage on the y axis |
+| ObjectID | Revers to the ID of the individual parking space |
+| Name |  Name of the Parking Space|
+| Type" | Declares the restiriction|
+| NO_SPACES | The max amount of cars the carpark can hold|
+| Lat | Referes to latitude (Geographic Location Coordinates from north to south position)|
+| Long | Referes to longitude (Geographic Location Coordinates from east-west position)|
+| EastITM | East-west ITM (Irish Transverse Mercator) is the geographic coordinate system for Ireland|
+| NorhtITM | North ITM (Irish Transverse Mercator) is the geographic coordinate system for Ireland|
+| EastIG | Easting are geographic Cartesian coordinates for a point|
+| NorthIG | Northing are geographic Cartesian coordinates for a point|
 
+###Row example:
 
-
-
-
-
-
-
-
-
+- **X**: -9.053499750875776
+- **Y**: 53.27308246983011
+- **ObjectID**: 1
+- **Name**:            Market St               
+- **Type**: Pay/Surface Carpark
+- **NO_SPACES**: 88
+- **Lat**: 53.273
+- **Long**: -9.054
+- **EastITM**: 529691.955
+- **NorhtITM**: 725294.803
+- **EastIG**:  129726.012
+- **NorthIG**: 225265.639
 
 
 ## JSON Example
