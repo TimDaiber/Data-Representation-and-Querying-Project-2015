@@ -12,6 +12,7 @@ This project provides the design and documentation for the dataset "Galway City 
 
 ## Dataset
 The dataset "Galway City Car Parking Locations" privides the user with usefull information about the location of parking places in Gawlay. The location is represented in lonatude and latitude also the amount of parking spaces can be gathered from the dataset.
+
 The CSV file contains 14 columns and 29 rows.
 
 Dataset Column breakdown.
@@ -49,9 +50,11 @@ Dataset Column breakdown.
 ### URL Example One
 
 To get a Parking lot by there ID:
+
 http://galwayparking.com/parking/objectid/[objectid]
 
 Example for ID 1:
+
 http://galwayparking.com/parking/objectid/1
 
  JSON Response Example:
