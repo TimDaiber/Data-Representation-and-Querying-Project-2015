@@ -180,18 +180,59 @@ JSON response:
 
 http://galwayparking.com/parking
 
-> *HTTP:HyperText Transfer Protocol
+> HTTP:HyperText Transfer Protocol
 
-> *www.galwayparking.com: Domain name
+> www.galwayparking.com: Domain name
 
-> *.com: extension (i.e.: .ie ireland)
+> .com: extension (i.e.: .ie ireland)
 
-> */parking: PATH to specific page within a site
+> /parking: PATH to specific page within a site
+
+###Filters
+
+Example of using filters to filter out unwanted data:
+
+http://galwayparking.com/parking/?[filter]=[parameter]
+
+Using filters to just show multistory carparks:
+
+http://galwayparking.com/parking/?type=Multistorey&Carpark
+
+###Get 
+Example for get method:
+
+Get Parking Space with ID 4
+
+http://galwayparking.com/parking/?OBJECTID=4
+
+###Put
+Using put method to update existing values
+
+http://galwayparking.com/parking/update?objectid=[id]&values=[value]
+
+Example of updating the number of spaces in a carpark from 0 to 102
+http://galwayparking.com/parking/update?objectid=5&field=no_spaces&value=102
 
 
-##Post
+###Delete
+This will probably not be used since Parking spaces lots get taken down but I will include it anyway.
+
+Deletes parking spaces with name salthill
+
+http://galwayparking.com/parking/name/salthill/delete
+
+DELETE PrimarySchools/county/name/galwayparking.html / HTTP/1.1
+
+host: www.galwayparking.com
+
+name="salthill"
+
+...
+
+###Post
 
 If Galway would ever get more carparks what is very likely in a growing city the post URL could look like this:
+
 http://galwayparking.com/parking/
 
 
