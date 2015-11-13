@@ -176,7 +176,7 @@ JSON response:
 </ROWSET>
 ```
 
-###URL / Web address makeup
+### URL / Web address makeup
 
 http://galwayparking.com/parking
 
@@ -188,7 +188,7 @@ http://galwayparking.com/parking
 
 > /parking: PATH to specific page within a site
 
-###Filters
+### Filters
 
 Example of using filters to filter out unwanted data:
 
@@ -198,30 +198,34 @@ Using filters to just show multistory carparks:
 
 http://galwayparking.com/parking/?type=Multistorey&Carpark
 
-###Get 
+### Get method
+
 Example for get method:
 
 Get Parking Space with ID 4
 
 http://galwayparking.com/parking/?OBJECTID=4
 
-###Put
+### Put method
+
 Using put method to update existing values
 
 http://galwayparking.com/parking/update?objectid=[id]&values=[value]
 
 Example of updating the number of spaces in a carpark from 0 to 102
+
 http://galwayparking.com/parking/update?objectid=5&field=no_spaces&value=102
 
 
-###Delete
+### Delete method
+
 This will probably not be used since Parking spaces lots get taken down but I will include it anyway.
 
 Deletes parking spaces with name salthill
 
 http://galwayparking.com/parking/name/salthill/delete
 
-DELETE PrimarySchools/county/name/galwayparking.html / HTTP/1.1
+DELETE parking/name/galwayparking.html / HTTP/1.1
 
 host: www.galwayparking.com
 
@@ -229,16 +233,28 @@ name="salthill"
 
 ...
 
-###Post
+###Post 
 
-If Galway would ever get more carparks what is very likely in a growing city the post URL could look like this:
+If Galway would ever get more carparks what is very likely in a growing city the post command could look like
 
-http://galwayparking.com/parking/
+http://galwayparking.com/parking/name/new
 
+POST parking/name/galwayparking.html HTTP/1.1
+
+HOST: www.galwayparing.com
+
+Connection: Keep-Alive
+
+Content-type: text/html
+
+x=-9.053499751&y=53.27308247&objectid=19&name=St.Cresent&Type=Multistorey&NO_SPACES=300&Lat=53.273&Long...
 
 #### Terminology
+
 API - Application Programming Interface
+
 REST API - REpresentational state Transfer
+
 JSON - JavaScript Object Notation
 
 Graph API:
@@ -252,3 +268,4 @@ Example: map.galwayparking.com/parking
 https://www.youtube.com/watch?v=7YcW25PHnAA
 
 https://www.youtube.com/watch?v=576WwU7xlWU
+
