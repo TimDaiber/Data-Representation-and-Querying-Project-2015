@@ -188,34 +188,45 @@ http://galwayparking.com/parking
 
 > /parking: PATH to specific page within a site
 
-### Filters
 
+
+### Filters
 Example of using filters to filter out unwanted data:
+
 http://galwayparking.com/parking/?[filter]=[parameter]
 
 Using filters to just show multistory carparks:
+
 http://galwayparking.com/parking/?type=Multistorey&Carpark
 
-### Get method
 
+
+### Get method
 Example for get method:
+
 Get Parking Space with ID 4
+
 http://galwayparking.com/parking/?OBJECTID=4
 
-### Put method
 
+
+### Put method
 Using put method to update existing values
+
 http://galwayparking.com/parking/update?objectid=[id]&values=[value]
 
 Example of updating the number of spaces in a carpark from 0 to 102
+
 http://galwayparking.com/parking/update?objectid=5&field=no_spaces&value=102
 
 
-### Delete method
 
+
+### Delete method
 This will probably not be used since Parking spaces lots get taken down but I will include it anyway.
 
 Deletes parking spaces with name salthill
+
 http://galwayparking.com/parking/delete?name=salthill
 
 DELETE parking/name/galwayparking.html / HTTP/1.1
@@ -226,15 +237,21 @@ name="salthill"
 
 ...
 
-###Post 
 
+
+###Post 
 If Galway would ever get more carparks what is very likely in a growing city the post command could look like
+
 http://galwayparking.com/parking/name/new
 
 POST parking/name/galwayparking.html HTTP/1.1
+
 HOST: www.galwayparing.com
+
 Connection: Keep-Alive
+
 Content-type: text/html
+
 x=-9.053499751&y=53.27308247&objectid=19&name=St.Cresent&Type=Multistorey&NO_SPACES=300&Lat=53.273&Long...
 
 #### Terminology
